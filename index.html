@@ -17,43 +17,39 @@
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position-x: center;
     ">
     
-        <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top row p-2">
+        <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top row p-2">
             <div class="container-fluid">
                 <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa"><img src="logo.png" alt="Logo" height="40px"></a>
-
-                
-                    
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre mí</a>
+                            <a class="nav-link" href="#about">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Habilidades</a>
+                            <a class="nav-link" href="#education">Educación</a>                           
                         </li class="nav-item">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cursos</a>
+                            <a class="nav-link" href="#skills">Habilidades</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contacto</a>
                         </li>
                     </ul>
-                    </div>
+                    
                 <div>
-                    <a style="height:auto; color:white;" class="m-3" href="https://github.com/ValentinoBadano"><i class="bi bi-github"></i></a>
-                    <a style="height:auto; color:white;" class="m-3" href="https://github.com/ValentinoBadano"><i class="bi bi-linkedin"></i></a>
+                    <a style="color:white;" class="me-3 align-middle" href="https://github.com/ValentinoBadano"><i class="bi bi-github" style="font-size: 21px;"></i></a>
+                    <a style="color:white;" class="me-3 align-middle" href="https://www.linkedin.com/in/valentino-badano-6b7467214/"><i class="bi bi-linkedin" style="font-size: 21px;"></i></a>
                     <button type="button" class="btn btn-success">Iniciar sesión</button>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    
                 </div>
-                
-                
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </div>
         </nav>
-
-            
 
         <div class="align-middle mt-4">
             <h1 class="display-1">Bienvenido!</h1>
@@ -63,23 +59,30 @@
     </div>
     
     <div class="container text-white text-justify" style="
-    padding: 30px 400px 10px 400px;">
-        <h2 class="text-center">Sobre mí</h2>
-        <p> Mi nombre es Valentino Badano y tengo 19 años. Actualmente vivo en Junín, Provincia de Buenos Aires, Argentina.</p>
-            
+    padding: 30px 20% 10px 20%; text-align: justify;">
+        <section>
+        <h2 class="text-center" id="about">Sobre mí</h2>
+        
+        <p> <img src="valentino.jpeg" height="200px" class="rounded m-2 me-3" style="float: left;">Mi nombre es Valentino Badano y tengo 19 años. Actualmente vivo en Junín, Provincia de Buenos Aires, Argentina.</p>
         <p> Soy un estudiante de tercer año de Ingeniería en Informática de la Universidad Nacional del Noroeste de Buenos Aires    , y me encuentro en busca de una primera
             experiencia laboral. Me considero una persona curiosa, con mucho interés y con ganas de
             aprender y mejorar. Aprendo y me adapto rápidamente, y estoy dispuesto a hacer lo que haga
             falta para cumplir mis objetivos.</p>
+        </section>
+        <h2 class="text-center" id="education">Educación</h2>
+        <h4>Secundaria</h4>
+        <h4>Ingeniería en Informática</h4>
 
-        <h2 class="text-center">Habilidades</h2>
+        <h2 class="text-center" id="skills">Habilidades</h2>
         <div class="progress">
+            
             <div class="progress-bar" role="progressbar" aria-valuenow="70"
             aria-valuemin="0" aria-valuemax="100" style="width:70%">
               <span class="sr-only">70%</span>
             </div>
-          </div> 
-        <h2 class="text-center">Cursos</h2>
+            
+        </div> 
+        
 
         <h2 class="text-center">Proyectos</h2>
     </div>
